@@ -1,24 +1,35 @@
 body{
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
 }
 h1{
     font-size: 50px;
 }
 span{
-    color: #f1bc6b;
+    color:orange;
 }
 .blogText{
     padding-left: 10%;
 }
 section{
     display: flex;
-
 }
-div{
+.halfBlock{
     width: 50%;
 }
-img{
-    height: 100%;
-    width: 100%;
+.halfBlock img{
+    width: 80%;
+}
+.linkBackGround{
+    text-decoration: none;
+    background-image: linear-gradient(orange , gray);
+    padding: 10px 40px ;
+    border-radius: 5px;
+    font-weight: 700;
+    color: white;
+
+}
+.backGroundImage{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
