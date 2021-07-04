@@ -8,24 +8,24 @@ h1{
 h2{
     font-size: 40px;
 }
-span{
+.OrangeTextColor{
     color:orange;
 }
 .blogText{
     padding-left: 5%;
     padding-right: 5%;
 }
-section{
+.sectionChildFlex{
     display: flex;
 }
-.topSection{
+.GapSection{
     margin-bottom: 10%;
 }
 .halfBlock{
     width: 50%;
 }
 .halfBlock img{
-    width: 80%;
+    width: 90%;
 }
 .linkBackGround{
     text-decoration: none;
@@ -44,4 +44,15 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.BoxModel{
+    margin: 5%;
+    width: 100%;
+    border-left: 5px solid red;
+    padding-left: 5%;
+}
+.backGroundImageBottomSection{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
