@@ -46,13 +46,20 @@ h2{
     background-position: right;
 }
 .BoxModel{
-    margin: 5%;
+    margin-left: 5%;
     width: 100%;
-    border-left: 5px solid red;
+    border-left: 8px solid salmon;
+    box-shadow: 5px 5px 50px gray;
     padding-left: 5%;
+}
+#anotherBoxModel{
+    margin-right: 5%;
 }
 .backGroundImageBottomSection{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
+}
+.FooterText{
+    text-align: center;
 }
