@@ -54,9 +54,11 @@ h2{
     border-left: 8px solid salmon;
     box-shadow: 5px 5px 50px gray;
     padding-left: 5%;
+    border-radius: 5px;
 }
-#anotherBoxModel{
+#AddBorderImg{
     margin-right: 5%;
+    border-image: linear-gradient(red, skyblue) 27;
 }
 .backGroundImageBottomSection{
     background-image: url(images/exp-bg.png);
